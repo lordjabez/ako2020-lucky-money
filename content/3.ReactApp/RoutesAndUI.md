@@ -19,14 +19,14 @@ Run the following commands to create some files, and download necessary assets:
 {{< highlight shell >}}
 cd ~/environment/ako2020-lucky-money
 # create components folder
-mkdir src/components/
+mkdir -p src/components/
 # create components files
 touch src/components/AR.js
 touch src/components/Sharing.js
 touch src/components/Ranking.js
 touch src/components/Toast.css
 # create assets folder
-mkdir public/images
+mkdir -p public/images
 # download the lucky money image
 wget {{< param codeRepo >}}raw/master/public/images/red_envolope.jpg -O public/images/red_envolope.jpg
 wget {{< param codeRepo >}}raw/master/public/images/redpacket.png -O public/images/redpacket.png
